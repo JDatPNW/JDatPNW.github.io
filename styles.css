@@ -125,6 +125,10 @@ hr {
   margin-top: 25px;
 }
 
+#baMobile {
+  display: none;
+}
+
 @media screen and (max-width:800px) {
   .mainContent {
     margin-top: 10px;
@@ -156,5 +160,16 @@ hr {
     background-color: #ff6969ff;
     padding-left: 2px;
     padding-right: 2px;
+  }
+  #baMobile {
+    display: inline;
+  }
+
+  #baDesktop {
+    display: none;
+  }
+
+  .mainContent h1 {
+    font-size: 17px;
   }
 }
