@@ -15,7 +15,6 @@ img {
 header p {
   color: #555;
   letter-spacing: 1px;
-  font-size: 20px;
   margin-bottom: 20px;
   font-family: Georgia, serif;
   text-align: center;
@@ -124,4 +123,38 @@ hr {
   width: 100%;
   max-width: 900px;
   margin-top: 25px;
+}
+
+@media screen and (max-width:800px) {
+  .mainContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  header p {
+    color: #555;
+    line-height: 125%;
+    font-size: 15px;
+  }
+
+  #logo {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .contactBarList a {
+    padding: 5px;
+    color: white;
+  }
+
+  .contactBarList li {
+    border: 2px solid #ff6969ff;
+    padding: 5px;
+    background-color: #ff6969ff;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
