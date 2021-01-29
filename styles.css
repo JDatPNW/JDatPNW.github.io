@@ -125,7 +125,7 @@ hr {
   margin-top: 25px;
 }
 
-#baMobile {
+#Mobile {
   display: none;
 }
 
@@ -161,11 +161,11 @@ hr {
     padding-left: 2px;
     padding-right: 2px;
   }
-  #baMobile {
+  #Mobile {
     display: inline;
   }
 
-  #baDesktop {
+  #Desktop {
     display: none;
   }
 
