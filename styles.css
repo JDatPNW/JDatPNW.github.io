@@ -2,14 +2,37 @@ img {
   vertical-align: middle;
 }
 
-#logo {
+.css-logo {
+  display: grid;
+  place-items: center;
   width: 100%;
   max-width: 400px !important;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
   margin-bottom: 31px;
+}
+
+.logo-bg, .logo-fg {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+}
+
+.logo-bg {
+  color: #e5e5e5;
+  font-size: 110px;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  line-height: 1;
+  user-select: none;
+}
+
+.logo-fg {
+  color: #ff6969; 
+  font-size: 60px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
 }
 
 header p {
@@ -31,7 +54,6 @@ header p {
 footer {
   color: #555;
   letter-spacing: 1px;
-  font-size: 20px;
   margin-bottom: 20px;
   font-family: Georgia, serif;
   text-align: center;
@@ -145,9 +167,17 @@ hr {
     font-size: 15px;
   }
 
-  #logo {
+  .css-logo {
     margin-bottom: 5px;
     margin-top: 5px;
+  }
+
+  .logo-bg {
+    font-size: 80px;
+  }
+
+  .logo-fg {
+    font-size: 45px;
   }
 
   .contactBarList a {
@@ -162,6 +192,7 @@ hr {
     padding-left: 2px;
     padding-right: 2px;
   }
+  
   .Mobile {
     display: inline !important;
   }
