@@ -112,10 +112,11 @@ nav {
 
 #thesis {
   width: 100%;
-  max-width: 500px !important;
+  max-width: 300px !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
 }
 
 hr {
