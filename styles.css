@@ -20,7 +20,7 @@ img {
 
 .logo-bg {
   color: #e5e5e5;
-  font-size: 110px;
+  font-size: 150px;
   font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
   line-height: 1;
   user-select: none;
@@ -28,7 +28,7 @@ img {
 
 .logo-fg {
   color: #ff6969; 
-  font-size: 60px;
+  font-size: 90px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1;
